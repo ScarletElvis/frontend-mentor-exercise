@@ -1,0 +1,107 @@
+@font-face {
+  font-family: Inter-Regular;
+  src: url(Inter/static/Inter-Regular.ttf);
+}
+
+@font-face {
+  font-family: Inter-SemiBold;
+  src: url(Inter/static/Inter-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: Inter-Bold;
+  src: url(Inter/static/Inter-Bold.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0; 
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 100%;
+  background-color: hsl(0, 0%, 8%);
+  min-height: 100vh;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.main {
+  min-width: 28%;
+  padding: 18px;
+  text-align: center;
+  color:hsl(0, 0%, 100%);
+}
+
+.profile {
+  background-color: hsl(0, 0%, 12%);
+  padding: 25px;
+  text-align: center;
+  border-radius: 10px;
+  font-size: 14px;
+}
+
+img {
+  width: 94px;
+  border-radius: 50%;
+  height: 94px;
+  border: 2px solid black;
+}
+
+.about {
+  line-height: 1.6rem;
+}
+
+.name {
+  font-family: Inter-Bold;
+  color: hsl(0, 0%, 100%);
+}
+
+.location {
+  font-family: Inter-SemiBold;
+  color: hsl(75, 94%, 57%);
+}
+
+.work {
+  font-family: Inter-Regular;
+  margin: 8px, 0, 0;
+  color: hsl(0, 0%, 100%)
+}
+
+.socail-links {
+  margin-top: 18px;
+}
+
+.socail-links a {
+  text-decoration: none;
+  background-color: hsl(0, 0%, 20%);
+  display: block;
+  margin: 18px;
+  color: hsl(0, 0%, 100%);
+  border-radius: 8px;
+  font-family: Inter-SemiBold;
+  padding: 12px;
+  transition: all 0.2s ease-in-out;
+}
+
+.socail-links a:active,
+.socail-links a:hover {
+  color: hsl(0, 0%, 12%);
+  background-color: hsl(75, 94%, 57%);
+  cursor: pointer;
+  transition: 0.6s;
+}
+
+
+.attribution { 
+  font-size: 11px; 
+  font-family: Inter-Regular;
+  color: hsl(0, 0%, 100%);
+  margin: 10px
+}
+
+.attribution a {
+   color: hsl(228, 45%, 44%);
+  }
